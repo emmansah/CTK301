@@ -1,0 +1,95 @@
+body{
+  background-color: #cccccc;
+  background-image: url(patch2.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+}
+
+p{
+  font-family: sans-serif;
+}
+
+a:link {
+ color: #FF0000;
+ font-family: sans-serif;
+}
+
+a:visited {
+ color: #08C80B;
+ font-family: sans-serif;
+}
+
+a:hover {
+ color: #EEE234;
+ font-family: sans-serif;
+}
+
+.classone {
+  color: #ff9900;
+  background-color: #EDEDED;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.classtwo{
+  color: #ff9900;
+  background-color: #E2E3FD;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.classthree{
+  color: #ff9900;
+  background-color: #FDEBEC;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.classfour{
+  color: #ff9900;
+  background-color: #FDF3E7;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.classtext{
+  color: #303030;
+  background-color: #EDEDED;
+  font-family: sans-serif;
+}
+
+.classfooter{
+  color: #FFFFFF;
+  background-color: #000000;
+  font-family: sans-serif;
+}
+
+#divone{
+  color: #303030;
+  background-color: #EDEDED;
+  font-family: sans-serif;
+}
+
+.spanone{
+  color: #4149E1;
+  font-family: sans-serif;
+}
+
+.textcenter {
+text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+
+.imgbox{
+  border: 15px solid #000000;
+  padding: 15px;
+  background-color: #FFFFFF;
+  margin: 20px 20px 0px 0px;
+}
