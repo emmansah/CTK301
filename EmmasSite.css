@@ -1,0 +1,143 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  background-color: #9BA588;
+}
+
+header{
+  grid-column: span 12;
+  background-color: #1E2C15;
+  color: white;
+  font-family: Times, Georgia, Helvetica, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 24px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+nav{
+  grid-column: span 12;
+  margin-bottom: 0px;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+float: left;
+  margin-bottom: 12px;
+  width: 33%;
+}
+
+nav li a{
+  display: block;
+  background-color: #FFFFFF;
+  color: #1E2C15;
+  font-family: Times, Georgia, Helvetica, sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px;
+  margin: 0 24px 0 24px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #c0cbaa;
+  box-shadow: 10px 10px 12px #565e45;
+  transition: background-color 0.4s, color 0.2s;
+}
+
+nav li a:hover{
+  background-color: #37452C;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 2px #000;
+}
+
+main{
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  padding: 24px;
+  margin: 24px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+section{
+  grid-column: span 7;
+  font-size: 28px;
+  padding: 12px;
+  margin: 12px;
+}
+
+
+#mainimg{
+  grid-column: span 5;
+
+}
+
+img{
+  grid-column: span 5;
+  padding: 24px;
+}
+
+footer{
+  grid-column: span 12;
+  background-color: #37452C;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  transition: color .75s;
+}
+
+footer a:hover{
+  color: grey;
+}
+
+.roundedbox {
+  padding: 12px;
+  background-color: #dae0ce;
+  border: 0px solid white;
+  border-radius: 12px;
+}
+
+.dropshadowbox {
+  padding: 10px;
+  box-shadow: 10px 10px 12px #565e45; /* x, y, blur, color */
+}
+
+.move{
+  grid-column: span 12;
+  font-size: 28px;
+  text-align: center;
+  margin: 0 72px 24px 72px;
+  background-color: #FFFFFF;
+}
+
+audio{
+  width: 500px;
+}
+
+
+#example2{
+  gird-column: span 12;
+}
