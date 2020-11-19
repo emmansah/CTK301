@@ -19,7 +19,7 @@ header{
   grid-column: span 12;
   background-color: #1E2C15;
   color: white;
-  font-family: Times, Georgia, Helvetica, sans-serif;
+  font-family: 'Cormorant Garamond', Times, Georgia, Helvetica, sans-serif;
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
@@ -48,7 +48,7 @@ nav li a{
   display: block;
   background-color: #FFFFFF;
   color: #1E2C15;
-  font-family: Times, Georgia, Helvetica, sans-serif;
+  font-family: 'Cormorant Garamond', Times, Georgia, Helvetica, sans-serif;
   font-size: 28px;
   text-transform: uppercase;
   text-decoration: none;
@@ -83,34 +83,18 @@ section{
   margin: 12px;
 }
 
-
-#mainimg{
+.hpimg{
   grid-column: span 5;
-
+  padding: 28px;
 }
 
-img{
-  grid-column: span 5;
-  padding: 24px;
-}
-
-footer{
+.page2img{
   grid-column: span 12;
-  background-color: #37452C;
-  color: white;
-  text-align: center;
-  font-size: 24px;
+  padding-left: 168px;
 }
 
-footer a{
-  color: white;
-  text-decoration: none;
-  font-size: 24px;
-  transition: color .75s;
-}
-
-footer a:hover{
-  color: grey;
+.page3img{
+  float: left;
 }
 
 .roundedbox {
@@ -133,6 +117,30 @@ footer a:hover{
   background-color: #FFFFFF;
 }
 
+.hpp{
+  grid-column: span 7;
+  text-align: center;
+  font-size: 32px;
+}
+
+.page2p{
+  grid-column: span 12;
+  text-align: center;
+
+}
+
+.page3p1{
+  grid-column: span 12;
+  text-align: center;
+
+}
+
+.page3p2{
+  grid-column: span 12;
+  text-align: center;
+
+}
+
 audio{
   width: 500px;
 }
@@ -140,4 +148,98 @@ audio{
 
 #example2{
   gird-column: span 12;
+}
+
+footer{
+  grid-column: span 12;
+  background-color: #37452C;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  transition: color .75s;
+}
+
+footer a:hover{
+  color: grey;
+}
+
+
+
+.carousel-wrapper {
+  grid-column: span 12;
+margin: 20px auto;
+position: relative;
+border: 10px solid #fff;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 0 0 2px #999;
+-moz-box-shadow: 0 0 2px #999;
+box-shadow: 0 0 2px #999;
+}
+.carousel-wrapper .photo-credits {
+position: absolute;
+right: 15px;
+bottom: 0;
+font-size: 13px;
+color: #fff;
+text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+opacity: .66;
+}
+.carousel-wrapper .photo-credits a {
+color: #fff;
+}
+/** <a href="https://www.jqueryscript.net/tags.php?/Carousel/">Carousel</a> **/
+
+.carousel {
+position: relative;
+overflow: hidden;
+width: 600px;
+height: 400px;
+}
+.carousel ul {
+width: 20000em;
+position: absolute;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.carousel li {
+float: left;
+}
+/** Carousel Controls **/
+
+.carousel-control-prev, .carousel-control-next {
+position: absolute;
+top: 200px;
+width: 30px;
+height: 30px;
+text-align: center;
+background: #4E443C;
+color: #fff;
+text-decoration: none;
+text-shadow: 0 0 1px #000;
+font: 24px/27px Arial, sans-serif;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+-webkit-box-shadow: 0 0 2px #999;
+-moz-box-shadow: 0 0 2px #999;
+box-shadow: 0 0 2px #999;
+}
+.carousel-control-prev {
+left: -50px;
+}
+.carousel-control-next {
+right: -50px;
+}
+.carousel-control-prev:hover span, .carousel-control-next:hover span {
+display: block;
 }
